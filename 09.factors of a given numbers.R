@@ -1,12 +1,11 @@
-# Function to find factors of a given number
-find_factors <- function(n) {
-  factors <- which(n %% 1:n == 0)
-  return(factors)
+print_factors = function(n) {
+  cat("The factors of",n,"are:\n")
+  for(i in 1:n) {
+    if((n %% i) == 0) {
+      print(i)
+    }
+  }
 }
-
-# Find factors of a given number (e.g., 36)
-factors_of_36 <- find_factors(36)
-
-# Display the result
-print("Factors of 36:")
-print(factors_of_36)
+print_factors(4)
+print_factors(7)
+print_factors(12)

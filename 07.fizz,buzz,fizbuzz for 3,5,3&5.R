@@ -1,13 +1,6 @@
-# Print numbers from 1 to 100 with "Fizz", "Buzz", "FizzBuzz"
-for (i in 1:100) {
-  if (i %% 3 == 0 & i %% 5 == 0) {
-    print("FizzBuzz")
-  } else if (i %% 3 == 0) {
-    print("Fizz")
-  } else if (i %% 5 == 0) {
-    print("Buzz")
-  } else {
-    print(i)
-  }
+for (n in 1:100) {
+  if (n %% 3 == 0 & n %% 5 == 0) {print("FizzBuzz")}
+  else if (n %% 3 == 0) {print("Fizz")}
+  else if (n %% 5 == 0) {print("Buzz")}
+  else print(n)
 }
-

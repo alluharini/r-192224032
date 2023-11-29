@@ -1,8 +1,4 @@
-# Create an empty plot
+#print("Empty plot:")
 plot.new()
-
-# Create an empty plot with specified axes limits
-plot(1, type = "n", xlim = c(0, 10), ylim = c(0, 20), xlab = "X-axis", ylab = "Y-axis", main = "Empty Plot with Axes Limits")
-
-# Add a title to the plot
-title(main = "Empty Plot with Axes Limits")
+#print("Empty plot specify the axes limits of the graphic:")
+plot(1, type="n", xlab="", ylab="", xlim=c(0, 20), ylim=c(0, 20))

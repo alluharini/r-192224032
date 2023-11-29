@@ -1,11 +1,5 @@
-# Create three vectors
-a <- c(1, 4, 7)
-b <- c(2, 5, 8)
-c <- c(3, 6, 9)
-
-# Combine the three vectors into a 3x3 matrix
-combined_matrix <- matrix(c(a, b, c), nrow = 3, byrow = TRUE, dimnames = list(NULL, c("a", "b", "c")))
-
-# Display the content of the matrix
-print("Combined 3x3 Matrix:")
-print(combined_matrix)
+A<-c(1,2,3)
+B<-c(4,5,6)
+C<-c(7,8,9)
+mat<-cbind(A,B,C)
+mat
